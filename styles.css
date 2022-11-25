@@ -1,0 +1,45 @@
+li{
+    width: 250px;
+    height: 450px;
+    list-style: none;
+    border: solid 1px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    
+}
+
+img{
+    margin-top: -20px;
+    width: 200px;
+    height: 200px;
+}
+
+button{
+    border-radius: 5px;
+    border: solid 1px;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+button:hover{
+    background-color: rgb(177, 177, 177);
+    width: 102px;
+    height: 32px;
+}
+
+.divHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
